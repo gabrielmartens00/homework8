@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import styles from "../styles/Home.module.css"
-import GitHub from '../components/GitHub';
-import Counter from '../components/Counter';
+import GitHub from '../src/app/components/GitHub';
+import Counter from '../src/app/components/Counter';
 
 export default function Home() {
   return (
